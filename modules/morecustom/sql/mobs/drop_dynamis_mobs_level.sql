@@ -1,0 +1,2 @@
+-- decrease the level range of Dynamis mobs that are above level 50 by 10
+UPDATE mob_groups SET minLevel = minLevel - 10, maxLevel = maxLevel - 10 WHERE minLevel > 50 and zoneid = 188; -- Dynamis - Jeuno
