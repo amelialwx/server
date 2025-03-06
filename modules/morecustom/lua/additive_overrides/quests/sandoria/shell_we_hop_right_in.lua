@@ -19,9 +19,9 @@ local m = Module:new("shell_we_hop_right_in?")
 
 local info =
 {
-    name   = "Shell_We_Hop_Right_In?",
-    author = "Kyoko",
-    var    = "Shell_We_Hop_Right_In?",
+    name   = "Shell We Hop Right In?",
+    author = "Beantron",
+    var    = "[CB]SHELL_WE_HOP_RIGHT_IN?",
     required =
     {
         item = { { 539, 1 }, { 542, 1 } }, -- crab apron and wild rabbit tail
@@ -86,9 +86,10 @@ local entity =
         {
             NAME      = true,
             DEFAULT   = { 
-                { entity = "Shellnut", face  = "player" },
-                "blub blub blub." 
+                { entity = "Bunjamin", face  = "player" },
+                "You look familiar. Did you kill all my friends and take their tails?" 
             },
+        }
     }
 }
 
