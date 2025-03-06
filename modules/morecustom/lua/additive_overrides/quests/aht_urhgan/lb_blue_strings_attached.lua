@@ -24,7 +24,7 @@ local info =
     var    = "[LB]BLUE_STRINGS_ATTACHED",
     required =
     {
-        item = { { 2331, 1 }, { 2333, 1 } }, -- blue mage and puppetmaster testimonies
+        item = { { 2331, 1 }, { 2333, 1 } }, -- Blue Mage Testimony, Puppetmaster Testimony
     },
     reward =
     {
@@ -59,7 +59,7 @@ local entity =
         id     = AZULA,
         name   = "Azula",
         type   = xi.objType.NPC,
-        look   = "0x0000170300000000000000000000000000000000",
+        look   = "0x0000170300000000000000000000000000000000", -- Carbuncle
         area   = "Aht_Urhgan_Whitegate",
         pos    = { 11.8379, 0.0000, 0.1778, 260 }, -- !pos 11.8379 0.0000 0.1778 260
         dialog =

@@ -24,15 +24,16 @@ local info =
     var    = "[CB]SHELL_WE_HOP_RIGHT_IN?",
     required =
     {
-        item = { { 539, 1 }, { 542, 1 } }, -- crab apron and wild rabbit tail
+        item = { { 539, 1 }, { 542, 1 } }, -- Crab Apron, Wild Rabbit Tail
     },
     reward = 
     {
-        item = { { 3342, 1 } } -- savory shank
+        item = { { 3341, 1 } } -- Beastly Shank
     },
 }
 
 local SHELLNUT = "SHELLNUT"
+local BUNJAMIN = "BUNJAMIN"
 
 local entity =
 {
@@ -40,7 +41,7 @@ local entity =
         id     = SHELLNUT,
         name   = "Shellnut",
         type   = xi.objType.NPC,
-        look   = "0x00003A0B00000000000000000000000000000000",
+        look   = "0x00003A0B00000000000000000000000000000000", -- Crabauble
         area   = "Port_San_dOria",
         pos    = { 15.0439, -14.0000, -101.9381, 139 }, -- !pos 15.0439 -14.0000 -101.9381 139
         dialog =
@@ -55,7 +56,7 @@ local entity =
                 { entity = "Shellnut", face  = "player" },
                 "Too many adventures have stolen my apron!", 
                 { delay = 2000 },
-                "My friend , Bunjamin, has lost too many of his wild tails!",
+                "My friend, Bunjamin, has lost too many of his wild tails!",
                 { delay = 2000 },
                 "Bring us back what we have lost and I will introduce you to our friend.",
                 { delay = 2000 },
@@ -79,7 +80,7 @@ local entity =
         id     = BUNJAMIN,
         name   = "Bunjamin",
         type   = xi.objType.NPC,
-        look   = "0x00000C0100000000000000000000000000000000",
+        look   = "0x00000C0100000000000000000000000000000000", -- Lunar Rabbit
         area   = "Port_San_dOria",
         pos    = { 14.8755, -14.0000, -99.5696, 118 }, -- !pos 14.8755 -14.0000 -99.5696 118
         dialog =
@@ -102,7 +103,7 @@ local step =
         [SHELLNUT] =
         {
             onTrigger = cq.talkOnly("REMINDER"),
-            onTrade   = cq.tradeStep("ACCEPTED", "DECLINED", info.required.item, info.reward, info.name, cbxi.music.SANDORIA),
+            onTrade   = cq.tradeOnly("ACCEPTED", "DECLINED", info.required.item, info.reward, info.name, cbxi.music.SANDORIA),
         },
     },
 }
