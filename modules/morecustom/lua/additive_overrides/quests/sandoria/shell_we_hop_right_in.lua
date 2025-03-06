@@ -21,7 +21,7 @@ local info =
 {
     name   = "Shell We Hop Right In?",
     author = "Beantron",
-    var    = "[CB]SHELL_WE_HOP_RIGHT_IN?",
+    var    = "[CB]SHELL_WE_HOP_RIGHT_IN",
     required =
     {
         item = { { 539, 1 }, { 542, 1 } }, -- Crab Apron, Wild Rabbit Tail
@@ -103,7 +103,7 @@ local step =
         [SHELLNUT] =
         {
             onTrigger = cq.talkOnly("REMINDER"),
-            onTrade   = cq.tradeOnly("ACCEPTED", "DECLINED", info.required.item, info.reward, info.name, cbxi.music.SANDORIA),
+            onTrade   = cq.tradeOnly("ACCEPTED", "DECLINED", info.required.item, info.reward, "[CB]SHELL_WE_HOP_RIGHT_IN", 2, info.name, cbxi.music.SANDORIA),
         },
     },
 }
