@@ -7,7 +7,7 @@
 -- Shellnut     !pos 15.0439 -14.0000 -101.9381 139
 -- Unlocks: Beastly Shank (Behemoth Pop Item)
 -------------------------------------------------------
--- !setvar [CB]SHELL_WE_HOP_RIGHT_IN 1
+-- !setvar [CB]SHELL_WE_HOP_RIGHT_IN 2
 
 require("modules/module_utils")
 require('scripts/globals/utils')
@@ -54,7 +54,7 @@ local entity =
             START     =
             {
                 { entity = "Shellnut", face = "player" },
-                "Too many adventures have stolen my apron!", 
+                "Too many adventurers have stolen my apron!", 
                 { delay  = 2000 },
                 "My friend, Bunjamin, has lost too many of his wild tails!",
                 { delay  = 2000 },
