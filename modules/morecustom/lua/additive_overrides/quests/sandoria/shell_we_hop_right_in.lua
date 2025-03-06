@@ -103,7 +103,7 @@ local step =
         [SHELLNUT] =
         {
             onTrigger = cq.talkOnly("REMINDER"),
-            onTrade   = cq.tradeOnly("ACCEPTED", "DECLINED", info.required.item, info.reward, "[CB]SHELL_WE_HOP_RIGHT_IN", 2, info.name, cbxi.music.SANDORIA),
+            onTrade   = cq.tradeOnly("ACCEPTED", "DECLINED", info.required.item, info.reward, "[CB]SHELL_WE_HOP_RIGHT_IN", 1, info.name, cbxi.music.SANDORIA),
         },
     },
 }
