@@ -48,31 +48,35 @@ local entity =
         {
             NAME      = true,
             DEFAULT   = { 
-                { entity = "Shellnut", face  = "player" },
+                { entity = "Shellnut", face = "player" },
                 "blub blub blub." 
             },
             START     =
             {
-                { entity = "Shellnut", face  = "player" },
+                { entity = "Shellnut", face = "player" },
                 "Too many adventures have stolen my apron!", 
-                { delay = 2000 },
+                { delay  = 2000 },
                 "My friend, Bunjamin, has lost too many of his wild tails!",
-                { delay = 2000 },
+                { delay  = 2000 },
                 "Bring us back what we have lost and I will introduce you to our friend.",
-                { delay = 2000 },
+                { delay  = 2000 },
                 "Our purple friend."
             },
-            REMINDER   = { "Bring me back our apron and tail for your reward." },
-            ACCEPTED   = 
+            REMINDER = { "Bring me back our apron and tail for your reward." },
+            ACCEPTED = 
             {
-                { entity = "Shellnut", face  = "player" },
+                { entity = "Shellnut", face = "player" },
                 "Much appreciated! Now you can use this to lure out our ...friend.", 
-                { delay = 3000 },
+                { delay  = 3000 },
                 "If you find more, continue to bring them to me! If you don't die to the Behe.."
             },
-            DECLINED     = { 
-                { entity = "Shellnut", face  = "player" },
+            DECLINED = { 
+                { entity = "Shellnut", face = "player" },
                 "This is not what I asked for!" 
+            },
+            AFTER = {
+                { entity = "Shellnut", face = "player" },
+                "Hm? You want another? Well... you gotta get me and my friend more aprons and tails."
             },
         },
     },
@@ -87,7 +91,7 @@ local entity =
         {
             NAME      = true,
             DEFAULT   = { 
-                { entity = "Bunjamin", face  = "player" },
+                { entity = "Bunjamin", face = "player" },
                 "You look familiar. Did you kill all my friends and take their tails?" 
             },
         }
@@ -97,15 +101,23 @@ local entity =
 local step =
 {
     {
-        [SHELLNUT]    = cq.talkStep("START", info.name),
+        [SHELLNUT] = cq.talkStep("START", info.name),
     },
     {
         [SHELLNUT] =
         {
             onTrigger = cq.talkOnly("REMINDER"),
-            onTrade   = cq.tradeOnly("ACCEPTED", "DECLINED", info.required.item, info.reward, "[CB]SHELL_WE_HOP_RIGHT_IN", 1, info.name, cbxi.music.SANDORIA),
+            onTrade   = cq.tradeStep("ACCEPTED", "DECLINED", info.required.item, info.reward, info.name, cbxi.music.SANDORIA),
         },
     },
+    {
+        [SHELLNUT] =
+        {
+            onTrigger = cq.talkOnly("AFTER"),
+            onTrade   = cq.tradeOnly("ACCEPTED", "DECLINED", info.required.item, info.reward, info.name, cbxi.music.SANDORIA),
+        },
+
+    }
 }
 
 cq.add(m, {
