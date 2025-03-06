@@ -11,8 +11,6 @@
     - Quest: *Enter Quest Name Here*
     - Description: 
 
----
-
 ## Custom NPCs
 - [ ] Completed:
     - NPC: *Enter NPC Name Here*
@@ -23,8 +21,6 @@
 - [ ] Completed:
     - NPC: *Enter NPC Name Here*
     - Description: 
-
----
 
 ## Custom Mob Drops
 - [ ] Completed:
@@ -37,8 +33,6 @@
     - Mob Drop: *Enter Mob or Drop Detail Here*
     - Description: 
 
----
-
 ## Bug Fixes
 - [ ] Completed:
     - Bug: *Enter Bug Description or Type Here*
@@ -49,7 +43,3 @@
 - [ ] Completed:
     - Bug: *Enter Bug Description or Type Here*
     - Description: 
-
----
-
-
