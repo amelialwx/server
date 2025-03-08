@@ -13,8 +13,8 @@
 
 ## Custom NPCs
 - [ ] Completed:
-    - NPC: *Enter NPC Name Here*
-    - Description: 
+    - NPC: *Jehpedeaux*
+    - Description: Puppetmaster & Corsair gear exchange 
 - [ ] Completed:
     - NPC: *Enter NPC Name Here*
     - Description: 
