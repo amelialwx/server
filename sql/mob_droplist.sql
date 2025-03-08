@@ -2464,7 +2464,6 @@ INSERT INTO `mob_droplist` VALUES (251,0,0,1000,860,480);        -- Behemoth Hid
 INSERT INTO `mob_droplist` VALUES (251,0,0,1000,16869,220);      -- Thundercloud (22.0%)
 INSERT INTO `mob_droplist` VALUES (251,0,0,1000,17294,140);      -- Comet Tail (14.0%)
 INSERT INTO `mob_droplist` VALUES (251,0,0,1000,3342,@UNCOMMON); -- Savory Shank (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (251,0,0,1000,747,@ALWAYS);        -- Orichalcum Ingot (100%)
 
 -- ZoneID:  45 - Beholder
 INSERT INTO `mob_droplist` VALUES (252,0,0,1000,2917,@UNCOMMON); -- Bloodshot Hecteye (Uncommon, 10%)
@@ -11850,7 +11849,6 @@ INSERT INTO `mob_droplist` VALUES (1450,0,0,1000,1332,140);    -- Martial Abjura
 INSERT INTO `mob_droplist` VALUES (1450,0,0,1000,1328,130);    -- Aquarian Abjuration Feet (13.0%)
 INSERT INTO `mob_droplist` VALUES (1450,1,1,1000,13415,950);   -- Pixie Earring (Group 1 - 95.0%)
 INSERT INTO `mob_droplist` VALUES (1450,1,1,1000,13566,@RARE); -- Defending Ring (Group 1 - Rare, 5%)
-INSERT INTO `mob_droplist` VALUES (1450,0,0,1000,747,@ALWAYS); -- Orichalcum Ingot (100%)
 
 -- ZoneID: 125 - King Vinegarroon
 INSERT INTO `mob_droplist` VALUES (1451,0,0,1000,15223,430); -- Aces Helm (43.0%)
