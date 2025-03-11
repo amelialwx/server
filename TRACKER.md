@@ -12,20 +12,23 @@
     - Description: 
 
 ## Custom NPCs
-- [ ] Completed:
-    - NPC: *Enter NPC Name Here*
-    - Description: 
-- [ ] Completed:
-    - NPC: *Enter NPC Name Here*
-    - Description: 
+- [ ] Completed: INCOMPLETE 
+    - NPC: *Jehpedeaux*
+    - Description: Puppetmaster & Corsair gear exchange 
+- [ ] Completed: INCOMPLETE 
+    - NPC: K.K and B.B 
+    - Description: Carbuncle's Ruby and Coffer Keys trade-in 
 - [ ] Completed:
     - NPC: *Enter NPC Name Here*
     - Description: 
 
 ## Custom Mob Drops
-- [ ] Completed:
-    - Mob Drop: *Enter Mob or Drop Detail Here*
-    - Description: 
+- [x] Completed: 2025-03-05
+    - Mob Drop: Orichalcum Ingot added to Behemoth and King Behemoth
+    - Description: Orichalcum Ingot added to Behemoth and King Behemoth in Behemoth's Domain at 100% drop rate
+- [ ] Completed: INCOMPLETE 
+    - Mob Drop: Damascus Ingot added to Adamantoise 
+    - Description: Damascus Ingot (658) added to Adamantoise drop table at 50% drop rate
 - [ ] Completed:
     - Mob Drop: *Enter Mob or Drop Detail Here*
     - Description: 
