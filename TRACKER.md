@@ -23,9 +23,12 @@
     - Description: 
 
 ## Custom Mob Drops
+- [x] Completed: 2025-03-05
+    - Mob Drop: Orichalcum Ingot added to Behemoth and King Behemoth
+    - Description: Orichalcum Ingot added to Behemoth and King Behemoth in Behemoth's Domain at 100% drop rate
 - [ ] Completed: INCOMPLETE 
     - Mob Drop: Damascus Ingot added to Adamantoise 
-    - Description: Damascscus Ingot (658) added to Adamtoise drop table at 50% drop rate
+    - Description: Damascus Ingot (658) added to Adamantoise drop table at 50% drop rate
 - [ ] Completed:
     - Mob Drop: *Enter Mob or Drop Detail Here*
     - Description: 
