@@ -12,20 +12,20 @@
     - Description: 
 
 ## Custom NPCs
-- [ ] Completed:
-    - NPC: *Enter NPC Name Here*
-    - Description: 
-- [ ] Completed:
-    - NPC: *Enter NPC Name Here*
-    - Description: 
+- [ ] Completed: INCOMPLETE 
+    - NPC: *Jehpedeaux*
+    - Description: Puppetmaster & Corsair gear exchange 
+- [ ] Completed: INCOMPLETE 
+    - NPC: K.K and B.B 
+    - Description: Carbuncle's Ruby and Coffer Keys trade-in 
 - [ ] Completed:
     - NPC: *Enter NPC Name Here*
     - Description: 
 
 ## Custom Mob Drops
-- [ ] Completed:
-    - Mob Drop: *Enter Mob or Drop Detail Here*
-    - Description: 
+- [ ] Completed: INCOMPLETE 
+    - Mob Drop: Damascus Ingot added to Adamantoise 
+    - Description: Damascscus Ingot (658) added to Adamtoise drop table at 50% drop rate
 - [ ] Completed:
     - Mob Drop: *Enter Mob or Drop Detail Here*
     - Description: 
